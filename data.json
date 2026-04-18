@@ -45,7 +45,7 @@
       "tipo": "TEO"
     },
     {
-      "dia": "Miércoles",
+      "dia": "Mi\u00e9rcoles",
       "curso": "DBP",
       "hora": "11:00-13:00",
       "seccion": "Lab. 11",
@@ -53,7 +53,7 @@
       "tipo": "LAB"
     },
     {
-      "dia": "Miércoles",
+      "dia": "Mi\u00e9rcoles",
       "curso": "Base de Datos I",
       "hora": "15:00-17:00",
       "seccion": "Lab. 14",
@@ -94,9 +94,21 @@
     }
   ],
   "cursos_status": {
-    "Progra_3": { "nuevo": false, "archivos": 0 },
-    "BD": { "nuevo": false, "archivos": 0 },
-    "DBP": { "nuevo": false, "archivos": 0 },
-    "Metodos": { "nuevo": false, "archivos": 0 }
+    "Progra_3": {
+      "nuevo": true,
+      "archivos": 19
+    },
+    "BD": {
+      "nuevo": true,
+      "archivos": 24
+    },
+    "DBP": {
+      "nuevo": true,
+      "archivos": 19
+    },
+    "Metodos": {
+      "nuevo": true,
+      "archivos": 46
+    }
   }
 }
