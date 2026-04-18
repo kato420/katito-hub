@@ -1,0 +1,102 @@
+{
+  "usuario": "Huaman Yay, Alexis",
+  "codigo": "202210507",
+  "periodo": "2026-1",
+  "ultimo_update": "2026-04-18",
+  "horario": [
+    {
+      "dia": "Lunes",
+      "curso": "Metodos Numericos",
+      "hora": "07:00-09:00",
+      "seccion": "1",
+      "aula": "M1001",
+      "tipo": "TEO"
+    },
+    {
+      "dia": "Lunes",
+      "curso": "Base de Datos I",
+      "hora": "15:00-17:00",
+      "seccion": "1",
+      "aula": "AUDITORIO",
+      "tipo": "TEO"
+    },
+    {
+      "dia": "Lunes",
+      "curso": "DBP",
+      "hora": "18:00-20:00",
+      "seccion": "1",
+      "aula": "AULA MAGNA",
+      "tipo": "TEO"
+    },
+    {
+      "dia": "Martes",
+      "curso": "Base de Datos I",
+      "hora": "15:00-17:00",
+      "seccion": "Lab. 14",
+      "aula": "M804",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Martes",
+      "curso": "Programacion III",
+      "hora": "18:00-20:00",
+      "seccion": "1",
+      "aula": "AULA MAGNA",
+      "tipo": "TEO"
+    },
+    {
+      "dia": "Miércoles",
+      "curso": "DBP",
+      "hora": "11:00-13:00",
+      "seccion": "Lab. 11",
+      "aula": "L210",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Miércoles",
+      "curso": "Base de Datos I",
+      "hora": "15:00-17:00",
+      "seccion": "Lab. 14",
+      "aula": "M804",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Jueves",
+      "curso": "DBP",
+      "hora": "11:00-13:00",
+      "seccion": "Lab. 11",
+      "aula": "L210",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Jueves",
+      "curso": "Programacion III",
+      "hora": "18:00-20:00",
+      "seccion": "Lab. 13",
+      "aula": "M804",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Viernes",
+      "curso": "Metodos Numericos",
+      "hora": "13:00-15:00",
+      "seccion": "Lab. 11",
+      "aula": "M401",
+      "tipo": "LAB"
+    },
+    {
+      "dia": "Viernes",
+      "curso": "Programacion III",
+      "hora": "18:00-20:00",
+      "seccion": "Lab. 13",
+      "aula": "M804",
+      "tipo": "LAB"
+    }
+  ],
+  "cursos_status": {
+    "Progra_3": { "nuevo": false, "archivos": 0 },
+    "BD": { "nuevo": false, "archivos": 0 },
+    "DBP": { "nuevo": false, "archivos": 0 },
+    "Metodos": { "nuevo": false, "archivos": 0 }
+  }
+}
