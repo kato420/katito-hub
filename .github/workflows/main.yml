@@ -1,0 +1,27 @@
+name: Canvas Watcher
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: pip install canvasapi
+      - name: Run watcher
+        env:
+          CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+        run: python check_canvas.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git commit -m "update: canvas status" || exit 0
+          git push
