@@ -96,11 +96,11 @@
   "cursos_status": {
     "Progra_3": {
       "nuevo": true,
-      "archivos": 33
+      "archivos": 37
     },
     "BD": {
       "nuevo": true,
-      "archivos": 61
+      "archivos": 62
     },
     "DBP": {
       "nuevo": true,
